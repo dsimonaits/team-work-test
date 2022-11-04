@@ -1,6 +1,6 @@
 // import { API_KEY, URL } from './js/fetch';
 import jQuery from 'jquery';
-import pagination from '../node_modules/pagination/pagination.js';
+import pagination from './js/pagination.js';
 
 let query = '';
 let currentPage = 1;
