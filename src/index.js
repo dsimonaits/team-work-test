@@ -18,8 +18,8 @@ $(`#pagination`).pagination({
   click: async function (e) {
     currentPage = e.current;
 
-    clearContent(); // очистка перед отрисовкой новой страницы
+    // clearContent(); // очистка перед отрисовкой новой страницы
 
-    await fetchMovies(); // пример вызова конкретной функции
+    // await fetchMovies(); // пример вызова конкретной функции
   },
 });
