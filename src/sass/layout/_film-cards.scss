@@ -40,7 +40,7 @@
   .movie-card-img {
     width: 100%;
     max-height: 402px;
-    @media screen and(min-width: 768px) {
+    @media screen and (min-width: 768px) {
       min-height: 398px;
     }
   }
@@ -52,6 +52,7 @@
     @include font($lh: 16px);
   }
   .movie-title {
+    text-transform: uppercase;
     color: $primary-text-color;
     @include font($lh: 16px);
   }

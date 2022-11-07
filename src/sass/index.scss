@@ -7,14 +7,18 @@
 
 @import './utils/root';
 @import './utils/visually-hidden';
+@import './utils/mixin';
 
-
+@import './components/loader';
 @import './components/buttons';
 @import './components/modal-open';
+@import './components/pagination';
 
 @import './layout/home';
 @import './layout/header';
+@import './layout/film-cards';
 @import './layout/my-library';
+@import './layout/footer';
+@import'./layout/myLibrery-header';
 
 
-@import './components/pagination';

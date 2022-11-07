@@ -16,19 +16,23 @@ width: 129.53px;
 height: 42px;
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+margin-top: 40px;
 width: 152px;
 height: 44px;
 }
 @media screen and (min-width: 1280px) {
+margin-top: 40px;
 width: 148px;
 height: 42px;
 }
 }
 .navigation {
 display: flex;
-flex-wrap: wrap;
 align-items: center;
 justify-content: center;
+@media screen and (max-width: 767px) {
+margin-top: 40px;
+}
 }
 
 .navigation-item {
