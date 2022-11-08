@@ -2,6 +2,7 @@ export { addListenerByBtns };
 function addListenerByBtns(movie) {
   const btns = document.querySelector('.btns-box');
   btns.addEventListener('click', onBtnsClick.bind(this, movie));
+  console.log(movie);
 }
 
 function onBtnsClick(movie, event) {
